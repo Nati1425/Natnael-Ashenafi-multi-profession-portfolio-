@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Development - Natnael Ashenafi</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Natnael Ashenafi</h1>
+            <p class="tagline">Electrical | Marketing | Web Dev | Graphics</p>
+            <nav>
+                <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="electrical.html">Electrical</a></li>
+                    <li><a href="marketing.html">Marketing</a></li>
+                    <li><a href="web-development.html" class="active">Web Development</a></li>
+                    <li><a href="graphics-design.html">Graphics Design</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container page-content">
+        <h2>Custom Website Development</h2>
+        <p>I build responsive, fast, and user-friendly websites that achieve your business objectives. My development services include:</p>
+        <ul>
+            <li>Custom Website Design & Development (HTML, CSS, JavaScript)</li>
+            <li>Responsive Web Design (Mobile, Tablet, Desktop)</li>
+            <li>Static Site Generation & Deployment</li>
+            <li>E-commerce Solutions (e.g., Shopify integration, simple payment gateways)</li>
+            <li>Content Management Systems (CMS) like WordPress (Theme customization, basic setup)</li>
+            <li>Front-End Development & UI Implementation</li>
+            <li>Website Maintenance & Updates</li>
+        </ul>
+
+        <h3>Web Development Showcase</h3>
+        <div class="swiper-container portfolio-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="portfolio-item">
+                        <img src="images/web-project1.jpg" alt="Portfolio Website for Artist">
+                        <h4>Portfolio Site for Local Artist</h4>
+                        <p>Developed a visually appealing portfolio website for a local artist, featuring a filterable gallery and contact form.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="portfolio-item">
+                        <img src="images/web-project2.jpg" alt="Small Business Website">
+                        <h4>Brochure Website for Startup</h4>
+                        <p>Created a responsive website for a small business to showcase their services, build credibility, and generate leads.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="portfolio-item">
+                        <img src="images/web-project3.jpg" alt="E-commerce Integration">
+                        <h4>Simple E-commerce Site</h4>
+                        <p>Developed a small e-commerce site for handmade products using static site principles and third-party cart integration.</p>
+                    </div>
+                </div>
+                <!-- Add more portfolio items (slides) here -->
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <p style="text-align: center; margin-top: 30px;">
+            <a href="contact.html" class="cta-button">Let's Build Your Website</a>
+        </p>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© <span id="currentYear"></span> Natnael Ashenafi. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

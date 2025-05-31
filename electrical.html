@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electrical Installations - Natnael Ashenafi</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Natnael Ashenafi</h1>
+            <p class="tagline">Electrical | Marketing | Web Dev | Graphics</p>
+            <nav>
+                <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="electrical.html" class="active">Electrical</a></li>
+                    <li><a href="marketing.html">Marketing</a></li>
+                    <li><a href="web-development.html">Web Development</a></li>
+                    <li><a href="graphics-design.html">Graphics Design</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container page-content">
+        <h2>Building Electrical Installations</h2>
+        <p>I offer comprehensive electrical services, ensuring safety, reliability, and compliance with all regulations. My services include:</p>
+        <ul>
+            <li>Residential Wiring & Rewiring</li>
+            <li>Commercial Electrical Fit-outs</li>
+            <li>Lighting Design & Installation (LED, Smart Lighting)</li>
+            <li>Fuse Box Upgrades & Replacements</li>
+            <li>Safety Inspections & Testing</li>
+            <li>Emergency Electrical Repairs</li>
+            <li>Smart Home System Installations</li>
+        </ul>
+
+        <h3>My Electrical Work</h3>
+        <!-- Swiper -->
+        <div class="swiper-container portfolio-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="portfolio-item">
+                        <img src="images/electrical-work1.jpg" alt="Residential Wiring Project">
+                        <h4>Residential Rewiring Project</h4>
+                        <p>Complete rewiring for a 3-bedroom house, including new consumer unit and modern fixtures.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="portfolio-item">
+                        <img src="images/electrical-work2.jpg" alt="Commercial Lighting Installation">
+                        <h4>Office LED Lighting Upgrade</h4>
+                        <p>Energy-efficient LED lighting installation for a commercial office space, reducing energy costs.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="portfolio-item">
+                        <img src="images/electrical-work3.png" alt="Smart Home Installation">
+                        <h4>Smart Home System Setup</h4>
+                        <p>Installation of a comprehensive smart home system including lighting, security, and climate control.</p>
+                    </div>
+                </div>
+                <!-- Add more portfolio items (slides) here -->
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Navigation -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <p style="text-align: center; margin-top: 30px;">
+            <a href="contact.html" class="cta-button">Get a service for Your Electrical Needs</a>
+        </p>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© <span id="currentYear"></span> Natnael Ashenafi. All Rights Reserved.</p>
+        </div>
+    </footer>
+   <!-- At the END of your body, before the closing </body> tag -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> <!-- SWIPER SCRIPT FIRST -->
+    <script src="js/script.js"></script>                               <!-- YOUR SCRIPT SECOND -->
+</body>
+</html>
