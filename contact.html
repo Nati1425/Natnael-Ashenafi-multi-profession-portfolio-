@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Natnael Ashenafi</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css"> <!-- Your stylesheet -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Natnael Ashenafi</h1>
+            <p class="tagline">Electrical | Marketing | Web Dev | Graphics</p>
+            <nav>
+                <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="electrical.html">Electrical</a></li>
+                    <li><a href="marketing.html">Marketing</a></li>
+                    <li><a href="web-development.html">Web Development</a></li>
+                    <li><a href="graphics-design.html">Graphics Design</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container page-content">
+        <h2>Get In Touch</h2>
+        <p>I'm always excited to discuss new projects or answer any questions you might have. Feel free to reach out through any of the channels below, or use the contact form.</p>
+
+        <div class="contact-details">
+            <h3>Direct Contact</h3>
+            <p><strong>Phone:</strong> <a href="tel:+251907276469">+251 907 276 469</a></p>
+            <p><strong>Email:</strong> <a href="mailto:natnaelashenafi1425@gmail.com">Natnaelashenafi1425@gmail.com</a></p>
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/+251907276469" target="_blank" rel="noopener noreferrer">+251 907 276 469</a></p>
+
+            <h3>Follow Me / Connect</h3>
+            <ul class="social-links-contact">
+                <li>
+                    <a href="https://vm.tiktok.com/ZMSrdcFMc/" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://youtube.com/@natnael_ashenafi?si=ATMN9HMopDCkW0kZ" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://t.me/Nati1234y" target="_blank" rel="noopener noreferrer" aria-label="Telegram"> <!-- Corrected t.me link -->
+                        <i class="fab fa-telegram-plane"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/natnael2219?igsh=YzljYTk1ODg3Zg==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="contact-form-container">
+            <h3>Send Me a Message</h3>
+            <!-- Formspree Integration -->
+            <form id="contactFormSpree" action="https://formspree.io/f/xdkznwlv" method="POST">
+                <div>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="_replyto" placeholder="Your Email Address" required> <!-- Using _replyto for easy email replies -->
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your message here..." required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+            <!-- This paragraph is optional for Formspree if you're okay with their default thank you page.
+                 If you want custom on-page feedback, you'll need more JavaScript (AJAX submission). -->
+            <!-- <p id="form-message-spree" style="margin-top:15px; font-weight: bold;"></p> -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© <span id="currentYear"></span> Natnael Ashenafi. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
