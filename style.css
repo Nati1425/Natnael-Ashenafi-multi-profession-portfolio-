@@ -46,14 +46,14 @@ h1, h2, h3, h4, .cta-button, .cta-button-secondary {
 
 /* === Header & Sticky Navigation === */
 header {
-    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
-    backdrop-filter: blur(10px); /* Frosted glass effect */
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
     color: var(--primary-text);
     padding: 15px 0;
     border-bottom: 1px solid #e7e7e7;
     position: sticky;
     top: 0;
-    z-index: 1000; /* High z-index to stay on top */
+    z-index: 1000;
     transition: box-shadow 0.3s ease;
 }
 
@@ -63,7 +63,14 @@ header nav a { color: var(--secondary-text); text-decoration: none; text-transfo
 header nav a:hover, header nav a.active { color: var(--gradient-start); }
 
 /* === Hero Section with Animations === */
-#hero { background: none; min-height: 90vh; display: flex; align-items: center; position: relative; overflow: hidden; }
+#hero {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
 .hero-container { display: flex; align-items: center; justify-content: space-between; width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 20px; z-index: 2; }
 .hero-content { flex: 1; max-width: 50%; padding-right: 40px; }
 .hero-image { flex: 1; max-width: 45%; display: flex; justify-content: center; align-items: center; }
